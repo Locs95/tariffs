@@ -1,0 +1,130 @@
+button:active,
+button:focus {
+	outline: none!important;
+	box-shadow: none!important;
+}
+a {
+	outline: none!important;
+}
+body {
+	background: #eeeff4;
+}
+.tariff .card {
+	height: 100%!important;
+}
+.tariff__link-block {
+	height: 100%!important;
+	padding: 0.8rem 0 0.5rem 0;
+}
+.tariff .card {
+	border-radius: 0;
+}
+.tariff .card-header,
+.tariff .card-footer {
+	background: #fff;
+}
+.tariff .card-body {
+	padding: 0rem;
+}
+.tariff .card-body a:hover .tariff__arrow {
+	color: #434343;
+}
+.tariff .list-group-item {
+	padding: .75rem 1.25rem .75rem 0;
+	border-radius: 0;
+}
+.tariff__title {
+	color: #82c12b;
+	font-weight: bold;
+	font-family: Arial;
+	padding-left: 1rem!important;
+	font-size: 1.5rem;
+}
+.tariff__speed {
+	color: #fff;
+	padding: 6px 15px;
+	vertical-align: middle;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+.tariff__speed_blue {
+	background: #0075d9;
+}
+.tariff__speed_brown {
+	background: #70603e;
+}
+.tariff__speed_orange {
+	background: #e74807;
+}
+.tariff__price {
+	color: #434343;
+	padding: 15px 20px 0px 20px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+.tariff__free-options {
+	padding: 10px 20px 0 20px;
+	color: #434343;
+	font-size: 1rem;
+}
+.tariff__payment {
+	padding: 8px 20px 0px 20px;
+	color: #424242;
+}
+.tariff__info {
+	padding: 12px 20px 0 20px;
+	color: #424242;
+}
+.tariff__link {
+	color: #077eff;
+	font-family: Arial;
+}
+.tariff__arrow {
+	position: relative;
+	top: -3px;
+	font-size: 3rem;
+	color: #ccc;
+	padding-right: 1rem;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	line-height: 1;
+}
+.tariff__arrow-green {
+	position: relative;
+	top: -4px;
+	color: #82c12b;
+	font-size: 4rem;
+	line-height: 1.2;
+}
+.tariff__btn {
+	padding: 1rem!important;
+}
+.tariff__btn .btn {
+	background: #82c12b;
+	color: #fff;
+	font-size: 1.2rem;
+	border-radius: 0;
+	padding: .800rem .75rem;
+}
+.tariff__card {
+	background: #ffffff;
+}
+.tariff__caption {
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.tariff__caption-block {
+	padding: 0 1rem;
+	background: #f7f7f8;
+	margin-bottom: 15px;
+}
+
+
+@media (max-width: 574px) {
+	.tariff__caption {
+		font-size: 1.5rem;
+	}
+}
